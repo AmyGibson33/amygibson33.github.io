@@ -507,15 +507,18 @@
 		.col-sm-2 {
 			width:75%
 		}
-		
-		.col-sm-3, .col-sm-4 {
-			width: 50%
+		.col-sm-3, .preheader {
+			width: 35%
 		}
-		.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4 {
+		.col-sm-4, .header {
+			width: 65%
+		}
+		
+		.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .header, .preheader {
   			float: left;
 		}
 
-		.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4 {
+		.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .header, .preheader {
 			position: relative;
 			min-height: 1px;
 			padding-left: 15px;
@@ -820,10 +823,7 @@
 				background-color: #ffffff;
 			}
 
-			#main > section.eight
-			{
-				background-color: #f5fafa;
-			}
+			
 
 			#main > section.nine
 			{
