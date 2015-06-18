@@ -94,12 +94,16 @@
 		margin: 2em 0 0 0;
 	}
 
-	strong, b
+	b
 	{
 		font-weight: 800;
 		color: #666;
 	}
-	
+	strong
+	{
+		font-weight: 400;
+		color: #666	
+	}
 	em, i
 	{
 		font-style: italic;
@@ -151,7 +155,12 @@
 		font-style: italic;
 	}
 	
-	p, ul, ol, dl, table
+	p, table
+	{
+		margin-bottom: 2em;
+	}
+	
+	ul, ol, dl
 	{
 		margin-bottom: 2em;
 	}
@@ -501,10 +510,10 @@
 					font-size: 1em;
 				}
 	/* row */
-		.col-sm-1 {
+		.col-sm-1, .col-sm-5 {
 			width:25%;
 		}
-		.col-sm-2 {
+		.col-sm-2, .col-sm-6 {
 			width:75%
 		}
 		.col-sm-3, .preheader {
@@ -513,13 +522,14 @@
 		.col-sm-4, .header {
 			width: 65%
 		}
-		
-		.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .header, .preheader {
+
+			
+		.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .header, .preheader {
   			float: left;
 			align: left
 		}
 
-		.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .header, .preheader {
+		.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .header, .preheader {
 			position: relative;
 			min-height: 1px;
 			padding-left: 15px;
