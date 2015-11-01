@@ -30,7 +30,7 @@
 			-ms-animation: none !important;
 			animation: none !important;
 		}
-
+	
 	body,input,textarea,select
 	{
 		font-family: 'Source Sans Pro', sans-serif;
@@ -509,6 +509,18 @@
 				{
 					font-size: 1em;
 				}
+	/* p */
+		.small {
+			line-height: 140%;
+			float: left;
+			align: left
+			position: relative;
+			min-height: 1px;
+			padding-left: 15px;
+  			padding-right: 15px;
+			font-family: 'Source Sans Pro', sans-serif
+			
+		}
 	/* row */
 		.col-sm-1, .col-sm-5 {
 			width:25%;
@@ -522,13 +534,14 @@
 		.col-sm-4, .header {
 			width: 65%
 		}
+		
 
 			
 		.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .header, .preheader {
   			float: left;
 			align: left
 		}
-
+		
 		.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .header, .preheader {
 			position: relative;
 			min-height: 1px;
